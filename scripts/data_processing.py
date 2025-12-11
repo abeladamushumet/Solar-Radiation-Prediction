@@ -5,7 +5,7 @@ from pathlib import Path
 
 # 1. Load Data 
 def load_data(filename="solar_data.csv"):
-    """Load dataset from the project's /data folder safely."""
+    """Load dataset ."""
     base_path = Path(__file__).resolve().parents[1]   
     data_path = base_path / "data" / filename
 
@@ -78,7 +78,7 @@ def drop_irrelevant(df):
     return df
 
 
-# 7. Clean Numeric Columns (No warnings)
+# 7. Clean Numeric Columns
 
 def clean_numeric(df):
     """Fix NaN, Inf, and zero-variance columns before scaling."""
