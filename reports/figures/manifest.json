@@ -1,0 +1,112 @@
+[
+  {
+    "file": "plot_cell14_out0.png",
+    "cell": 14,
+    "src_preview": "#Boxplots",
+    "shape": [
+      994,
+      602
+    ],
+    "mean": 228.544880579156,
+    "std": 34.28087857801899
+  },
+  {
+    "file": "plot_cell18_out0.png",
+    "cell": 18,
+    "src_preview": "# Plot GHI over time",
+    "shape": [
+      1250,
+      475
+    ],
+    "mean": 179.75676968421052,
+    "std": 63.089642611986775
+  },
+  {
+    "file": "plot_cell19_out0.png",
+    "cell": 19,
+    "src_preview": "#Monthly Trends",
+    "shape": [
+      854,
+      475
+    ],
+    "mean": 234.5939184025638,
+    "std": 19.176691858966798
+  },
+  {
+    "file": "plot_cell21_out0.png",
+    "cell": 21,
+    "src_preview": "#Correlation matrix (numeric only)",
+    "shape": [
+      981,
+      756
+    ],
+    "mean": 198.307068427099,
+    "std": 57.415665761676244
+  },
+  {
+    "file": "plot_cell22_out0.png",
+    "cell": 22,
+    "src_preview": "#Correlation with GHI",
+    "shape": [
+      586,
+      683
+    ],
+    "mean": 187.11393720736163,
+    "std": 68.89400820746587
+  },
+  {
+    "file": "plot_cell24_out0.png",
+    "cell": 24,
+    "src_preview": "cols = ['GHI','DNI','DHI','Tamb']",
+    "shape": [
+      1189,
+      790
+    ],
+    "mean": 232.4859641651851,
+    "std": 28.94549204407566
+  },
+  {
+    "file": "plot_cell26_out0.png",
+    "cell": 26,
+    "src_preview": "sns.scatterplot(data=df, x='Tamb', y='GHI')",
+    "shape": [
+      587,
+      460
+    ],
+    "mean": 216.98168654173764,
+    "std": 45.60209219630556
+  },
+  {
+    "file": "plot_cell26_out1.png",
+    "cell": 26,
+    "src_preview": "sns.scatterplot(data=df, x='Tamb', y='GHI')",
+    "shape": [
+      584,
+      460
+    ],
+    "mean": 207.69453171530674,
+    "std": 51.53424537984184
+  },
+  {
+    "file": "plot_cell26_out2.png",
+    "cell": 26,
+    "src_preview": "sns.scatterplot(data=df, x='Tamb', y='GHI')",
+    "shape": [
+      588,
+      460
+    ],
+    "mean": 219.66595681750962,
+    "std": 44.784748526376106
+  },
+  {
+    "file": "plot_cell28_out0.png",
+    "cell": 28,
+    "src_preview": "numeric_cols = df.select_dtypes(include=['float64', 'int64']).columns",
+    "shape": [
+      4171,
+      4171
+    ],
+    "mean": 225.76869234610245,
+    "std": 32.57452929167068
+  }
+]
